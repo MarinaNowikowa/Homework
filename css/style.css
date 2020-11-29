@@ -1,0 +1,237 @@
+.awesome {
+  max-width: 100%;
+}
+.container {
+  max-width: 1400px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.awesome-title__title {
+  margin-top: 108px;
+  margin-bottom: 30px;
+}
+.awesome-title__title h2 {
+  /* Style for "WHY THIS I" */
+  color: #212121;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "W, HY THIS" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.awesome-title__img {
+  margin-left: 668px;
+  margin-right: 668px;
+}
+
+.awesome-title__text {
+  margin-top: 30px;
+  padding-right: 520px;
+  padding-left: 521px;
+}
+.awesome-title__text p {
+  /* Style for "Lorem ipsu" */
+  width: 359px;
+  height: 14px;
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  /* Text style for "L, orem ip" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.awesome-main__design {
+  margin-top: 80px;
+  margin-left: 143px;
+  margin-right: 907px;
+  width: 350px;
+}
+.awesome-main__title {
+  margin-left: 140px;
+  margin-right: 140px;
+  /* Style for "icon_aweso" */
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.awesome-main__title img {
+  margin: 21px 26px 21px 25px;
+}
+
+.awesome-main__subtitle {
+  margin-top: 29px;
+  margin-left: 85px;
+  margin-right: 84px;
+}
+
+.awesome-main__subtitle h3 {
+  /* Style for "Thoughtful" */
+  width: 181px;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  /* Text style for "T, houghtf" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.awesome-main__text {
+  margin-top: 25px;
+}
+
+.awesome-main__text p {
+  /* Style for "Lorem ipsu" */
+  width: 350px;
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.awesome-main__crafted {
+  margin-top: 32px;
+  margin-left: 143px;
+  margin-right: 907px;
+  width: 350px;
+}
+
+.awesome-main__title-crafted {
+  margin-left: 140px;
+  margin-right: 140px;
+  /* Style for "icon_aweso" */
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.awesome-main__title-crafted img {
+  margin: 24px 18px 25px 17px;
+}
+.awesome-main__subtitle-crafted {
+  margin-top: 29px;
+  margin-left: 114px;
+  margin-right: 114px;
+}
+
+.awesome-main__subtitle-crafted h3 {
+  /* Style for "Thoughtful" */
+  width: 122px;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  /* Text style for "T, houghtf" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.awesome-main__text-crafted {
+  margin-top: 29px;
+  /* Style for "Lorem ipsu" */
+}
+.awesome-main__text-crafted h3 {
+  width: 350px;
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.awesome-main__customize {
+  margin-top: 32px;
+  margin-left: 143px;
+  margin-right: 907px;
+  margin-bottom: 105px;
+}
+
+.awesome-main__title-costomize {
+  margin-left: 140px;
+  margin-right: 140px;
+  /* Style for "icon_aweso" */
+  width: 70px;
+  height: 70px;
+  border: 2px solid #ff8b38;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.awesome-main__title-costomize img {
+  margin: 19px 27px 20px 26px;
+}
+
+.awesome-main__subtitle-cusromize {
+  margin-top: 29px;
+  margin-left: 87px;
+  margin-right: 84px;
+}
+.awesome-main__subtitle-cusromize h3 {
+  /* Style for "Thoughtful" */
+  width: 179px;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  /* Text style for "T, houghtf" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.awesome-main__text-costomize {
+  margin-top: 25px;
+}
+.awesome-main__text-costomize h3 {
+  /* Style for "Lorem ipsu" */
+  width: 350px;
+  color: #86878b;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
