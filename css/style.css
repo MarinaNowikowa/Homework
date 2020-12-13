@@ -196,15 +196,11 @@
   line-height: normal;
 }
 
-.fullscreen-form__card {
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-}
-
 .fullscreen-form__name,
 .fullscreen-form__email,
 .fullscreen-form__password {
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 36px;
   padding-left: 15px;
   width: 285px;
@@ -236,9 +232,6 @@
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  position: absolute;
-  left: 0;
-  right: 0;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
