@@ -73,19 +73,32 @@
   width: 100%;
   background: url(/images/fullscreen\ image.png) #000000 no-repeat;
   background-size: cover;
+  min-height: calc(100vh - 76px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.full {
+.container.full {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen__wrapper {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  flex: 1 1 auto;
+  align-items: center;
 }
 
 .fullscreen-head {
-  margin: 0 15px;
+  /* margin: 0 15px;
   margin-top: 110px;
-  margin-bottom: 139px;
+  margin-bottom: 139px; */
 }
 
 .fullscreen-head__title {
@@ -150,15 +163,14 @@
 }
 
 .fullscreen-form {
-  margin: 0 15px;
   text-align: center;
-  margin-top: 212px;
-  margin-bottom: 139px;
   background-color: #ffffff;
   width: 374px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .fullscreen-form__subtitle {
@@ -184,14 +196,21 @@
   line-height: normal;
 }
 
+.fullscreen-form__card {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
 .fullscreen-form__name,
 .fullscreen-form__email,
 .fullscreen-form__password {
-  padding-top: 36px;
+  margin-top: 36px;
+  padding-left: 15px;
   width: 285px;
   height: 31px;
-  box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
   border: none;
+  border-bottom: 1px solid #bdbdbd;
   font-size: 14px;
   font-weight: 400;
   height: 31px;
@@ -201,8 +220,11 @@
   line-height: 31px;
 }
 
+.fullscreen-form__password {
+  margin-bottom: 49px;
+}
+
 .fullscreen-form__submit {
-  padding-top: 49px;
   display: block;
   border: none;
   width: 100%;
@@ -214,6 +236,11 @@
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 600;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .fullscreen-form__submit:active {
@@ -939,6 +966,5 @@ footer {
 }
 
 i:hover {
-  font-size: 48px;
   color: #ff8b38;
 }
