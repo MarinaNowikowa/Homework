@@ -860,17 +860,20 @@ p {
   display: flex;
   /* flex-wrap: wrap; */
   justify-content: center;
+  width: 100%;
 }
 
 .contact-form__block {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 527px;
 }
 .message {
   display: flex;
   align-self: flex-end;
   margin-top: 30px;
+  width: 527px;
 }
 
 .contact-form__submit {
@@ -899,13 +902,13 @@ p {
 .contact-form_name,
 .contact-form_email,
 .contact-form_subject {
-  margin: 0 15px;
+  /* margin: 0 15px; */
   margin-top: 30px;
   border: none;
   background-color: #ffffff;
   font-size: 1rem;
   height: 31px;
-  width: 527px;
+  width: 100%;
   color: #bdbdbd;
   font-family: "Open Sans";
   box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
@@ -913,12 +916,12 @@ p {
 }
 
 textarea {
-  margin: 0 15px;
+  /* margin: 0 15px; */
   border: none;
   background-color: #ffffff;
   font-size: 1rem;
   height: 180px;
-  width: 527px;
+  width: 100%;
   color: #bdbdbd;
   font-family: "Open Sans";
   box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
@@ -982,21 +985,26 @@ i:hover {
   .social {
     max-width: 90%;
   }
-  .contact-form {
+  /* .contact-form {
     text-align: center;
     margin: auto;
     display: block;
-  }
-
-  /* .contact-form-wrapper {
-    justify-content: space-around;
   } */
 
-  /* .contact-form__block {
-    max-width: 450px;
+  /* .contact-form-wrapper {
+    width: 100%;
+  }
+  .contact-form__block {
+    width: 527px;
   }
   .message {
-    max-width: 450px;
+    width: 527px;
+  }
+  .textarea,
+  .contact-form_name,
+  .contact-form_email,
+  .contact-form_subject {
+    width: 100%;
   } */
 }
 
@@ -1021,6 +1029,10 @@ i:hover {
 
   .socialmedia_text {
     text-align: center;
+  }
+
+  .contact-form-wrapper {
+    flex-wrap: wrap;
   }
 }
 
