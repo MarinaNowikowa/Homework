@@ -32,8 +32,8 @@
 }
 .header-logo {
   margin-bottom: 5px;
-  height: 27px;
-  width: 79px;
+  /* height: 27px;
+  width: 79px; */
 }
 .header-nav {
   margin: auto 0;
@@ -46,10 +46,10 @@
 }
 
 .header-nav__list-card {
-  text-align: left;
 }
 
 .header-nav__list-link {
+  text-align: left;
   display: block;
   margin: auto;
   width: 58px;
@@ -104,7 +104,7 @@
   margin: auto;
   padding-top: 33px;
   /* Style for "MODERN AXU" */
-  width: 512px;
+  /* width: 512px; */
   color: #ffffff;
   font-family: "Raleway";
   font-size: 2rem;
@@ -130,7 +130,7 @@
   padding-bottom: 40px;
   margin-left: 0px;
   /* Style for "Lorem ipsu" */
-  width: 461px;
+  /* width: 461px; */
   opacity: 0.8;
   color: #ffffff;
   font-family: Raleway;
@@ -164,7 +164,7 @@
 .fullscreen-form {
   text-align: center;
   background-color: #ffffff;
-  width: 374px;
+  max-width: 374px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -208,7 +208,7 @@
   border-bottom: 1px solid #bdbdbd;
   font-size: 1rem;
   font-weight: 400;
-  height: 31px;
+  /* height: 31px; */
   color: #bdbdbd;
   font-family: "Open Sans";
   text-align: left;
@@ -249,6 +249,7 @@
 .social {
   max-width: 1170px;
   margin: auto;
+  padding: 0 15px;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -256,13 +257,13 @@
 }
 
 .socialmedia-head {
-  width: 360px;
+  max-width: 360px;
   margin: 0px 15px;
 }
 .socialmedia_subtitle {
   margin-left: 0px;
   padding-top: 22px;
-  width: 122px;
+  max-width: 122px;
   color: #333333;
   font-family: "Open Sans";
   font-size: 1.3rem;
@@ -274,9 +275,8 @@
 }
 
 .socialmedia_text {
-  margin-top: 12px;
-  margin-bottom: 22px;
-  width: 360px;
+  margin: auto;
+  max-width: 360px;
   color: #86878b;
   font-family: "Open Sans";
   font-size: 1rem;
@@ -288,17 +288,15 @@
 }
 
 .social-list_media {
-  margin: 0px 15px;
-  margin-top: 10px;
   padding-top: 29px;
   padding-bottom: 30px;
-  width: 634px;
+  max-width: 634px;
   display: flex;
   justify-content: space-between;
 }
 .socialmedia_item {
   margin: 0px 15px;
-  height: 46px;
+  /* height: 46px; */
   font-size: 2.9rem;
   font-weight: 400;
   color: #cccccc;
@@ -314,7 +312,7 @@ h2 {
   text-align: center;
   margin: 108px auto 30px;
   /* Style for "WHY THIS I" */
-  width: 405px;
+  max-width: 405px;
   color: #212121;
   font-family: Raleway;
   font-size: 2.3rem;
@@ -349,7 +347,7 @@ h2:after {
 p {
   margin: auto;
   margin-top: 30px;
-  width: 350px;
+  /* width: 350px; */
   color: #86878b;
   font-family: "Open Sans";
   font-size: 1rem;
@@ -366,16 +364,17 @@ p {
 .awesome-main__item {
   margin: 0px 15px;
   margin-top: 10px;
-  width: 350px;
+  max-width: 350px;
 }
 .awesome-main__img {
-  margin-left: 140px;
-  margin-right: 140px;
+  margin: auto;
+  /* margin-left: 140px;
+  margin-right: 140px; */
   margin-bottom: 29px;
   width: 70px;
   height: 70px;
   border: 2px solid #ff8b38;
-  border-radius: 100px;
+  border-radius: 50%;
   text-align: center;
   display: flex;
   justify-self: center;
@@ -388,7 +387,7 @@ p {
 
 h3 {
   margin: auto;
-  width: 181px;
+  /* max-width: 181px; */
   color: #333333;
   font-family: "Open Sans";
   font-size: 1.3rem;
@@ -403,7 +402,7 @@ h3 {
 }
 
 p {
-  width: 350px;
+  max-width: 350px;
   color: #86878b;
   font-family: "Open Sans";
   font-size: 1rem;
@@ -433,7 +432,7 @@ p {
 .design_subtitle {
   margin: auto;
   padding-top: 95px;
-  width: 411px;
+  max-width: 411px;
   color: #ffffff;
   font-family: "Raleway";
   font-size: 2.3rem;
@@ -460,7 +459,7 @@ p {
 .design_text {
   display: block;
   margin: 23px auto 33px;
-  width: 732px;
+  max-width: 732px;
   opacity: 0.8;
   color: #ffffff;
   font-family: "Raleway";
@@ -481,7 +480,7 @@ p {
   margin: auto;
   border: 2px solid #ffffff;
   padding: 10px 25px;
-  width: 135px;
+  max-width: 135px;
   color: #ffffff;
   font-family: "Open Sans - Semibold";
   font-size: 1rem;
@@ -520,7 +519,7 @@ p {
 }
 .price_subtitle {
   /* padding-top: 108px; */
-  width: 306px;
+  max-width: 306px;
 }
 .price-block {
   padding-bottom: 96px;
@@ -535,7 +534,7 @@ p {
   margin: 0 15px;
   display: block;
   /* border: 1px solid black; */
-  width: 343px;
+  max-width: 343px;
   margin-top: 35px;
 }
 
@@ -602,7 +601,7 @@ p {
   margin: auto;
   margin-top: 0px;
   /* Style for "Free for L" */
-  width: 120px;
+  max-width: 120px;
   /* height: 12px; */
   opacity: 0.5;
   color: #ffffff;
@@ -674,8 +673,8 @@ p {
 
 .comment_subtitle {
   /* Style for "WHAT OUR C" */
-  width: 640px;
-  height: 26px;
+  max-width: 640px;
+  /* height: 26px; */
   color: #212121;
   font-family: "Raleway";
   font-size: 2.3rem;
@@ -699,9 +698,9 @@ p {
   background-color: #ff8b38;
   margin: 30px auto 30px;
 }
-.comment_text {
+/* .comment_text {
   padding-top: 62px;
-}
+} */
 
 .comment-card {
   padding-bottom: 101px;
@@ -839,7 +838,7 @@ p {
 
 .contact_text {
   /* Style for "Lorem ipsu" */
-  width: 359px;
+  max-width: 359px;
   color: #86878b;
   font-family: "Open Sans";
   font-size: 1rem;
@@ -905,7 +904,6 @@ p {
   border: none;
   background-color: #ffffff;
   font-size: 1rem;
-  height: auto;
   height: 31px;
   width: 527px;
   color: #bdbdbd;
@@ -981,18 +979,25 @@ i:hover {
 }
 
 @media screen and (max-width: 1024px) {
-  .fullscreen-head__title {
-    font-size: 28px;
+  .social {
+    max-width: 90%;
   }
-}
+  .contact-form {
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
 
-@media screen and (max-width: 900px) {
-  html {
-    font-size: 10px;
+  /* .contact-form-wrapper {
+    justify-content: space-around;
+  } */
+
+  /* .contact-form__block {
+    max-width: 450px;
   }
-  .container {
-    max-width: 840px;
-  }
+  .message {
+    max-width: 450px;
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -1001,15 +1006,116 @@ i:hover {
   }
 
   .fullscreen-head__img {
-    width: 25%;
+    width: 45%;
+  }
+
+  .social {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .socialmedia_subtitle {
+    margin: auto;
+    text-align: center;
+  }
+
+  .socialmedia_text {
+    text-align: center;
   }
 }
 
 @media (max-width: 720px) {
+  /* nav {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 11px;
+  }
+
+  .header-logo__img img {
+    max-width: 50px;
+  }
+
+  .fullscreen__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fullscreen-head {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .fullscreen-head__img {
+    max-width: 100px;
+  }
+  .fullscreen-head__title {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .fullscreen-head__title:after {
+    display: none;
+  }
+  .fullscreen-head__text {
+    display: none;
+  }
+
+  .fullscreen__btn {
+    margin: auto;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
   nav {
     display: none;
+  }
+  .social-list_media {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socialmedia_item {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 7px;
+  }
+
+  .awesome-main__img img {
+    max-width: 50px;
   }
 }
 
 @media screen and (max-width: 320px) {
+  .fullscreen__btn {
+    font-size: 12px;
+  }
+
+  .fullscreen-form__subtitle {
+    font-size: 16px;
+  }
+
+  .fullscreen-form__submit {
+    font-size: 18px;
+  }
+
+  .socialmedia_item {
+    margin-bottom: 5px;
+  }
+
+  .price-block_item {
+    max-width: 250px;
+  }
+  .price-block_description_text {
+    max-width: 250px;
+  }
 }
