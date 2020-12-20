@@ -303,6 +303,155 @@
   text-align: left;
 }
 
+/* Секция Tabs */
+.tabs {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.tabs-wrapper {
+  max-width: 1170px;
+  margin: auto;
+  background-color: #f5f5f5;
+  padding: 114px 15px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.tabs-menu__item {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+}
+
+.ui-widget-header {
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.ui-widget-content a {
+  color: white;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: none;
+  width: 80px;
+  height: 80px;
+  color: white;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  width: 80px;
+  height: 80px;
+  color: white;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  background-color: #333333;
+  margin: 1px 0;
+  float: none;
+  position: static;
+}
+.ui-tabs .ui-tabs-nav li:hover {
+  background-color: #ff8b38;
+}
+
+.ui-tabs .ui-tabs-panel {
+  padding: 0 2px;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  display: none;
+}
+
+.tabs-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabs-content__item {
+  max-width: 476px;
+}
+
+.tabs-content__title {
+  padding-bottom: 42px;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+
+.tabs-content__text {
+  max-width: 352px;
+  margin: 15px 0;
+  color: #86878b;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+
+.text-red {
+  color: red;
+  font-weight: 700;
+}
+
+.text-purple {
+  color: purple;
+  font-weight: 700;
+}
+
+.tabs-content__btn {
+  border-radius: 5px;
+  background-color: #ff8b38;
+  display: block;
+  width: 121px;
+  height: 40px;
+  color: #ffffff;
+  font-family: "Open Sans - Semibold";
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /*секция Awesome */
 .awesome {
   width: 100%;
@@ -975,37 +1124,16 @@ i:hover {
 
 /* Adaptive */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .container {
     max-width: 90%;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .social {
     max-width: 90%;
   }
-  /* .contact-form {
-    text-align: center;
-    margin: auto;
-    display: block;
-  } */
-
-  /* .contact-form-wrapper {
-    width: 100%;
-  }
-  .contact-form__block {
-    width: 527px;
-  }
-  .message {
-    width: 527px;
-  }
-  .textarea,
-  .contact-form_name,
-  .contact-form_email,
-  .contact-form_subject {
-    width: 100%;
-  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -1017,6 +1145,15 @@ i:hover {
     width: 45%;
   }
 
+  .tabs-wrapper {
+    padding: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tabs-img {
+    margin: 10px auto;
+  }
   .social {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -1036,10 +1173,34 @@ i:hover {
   }
 }
 
-@media (max-width: 720px) {
-  /* nav {
-    display: none;
-  } */
+@media (max-width: 600px) {
+  .tabs-wrapper {
+    flex-direction: column;
+  }
+
+  .ui-tabs .ui-tabs-nav {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .tabs-content {
+    margin: auto;
+  }
+
+  .tabs-content__title {
+    text-align: center;
+  }
+
+  .tabs-content__text {
+    text-align: center;
+    margin: auto;
+  }
+
+  .tabs-content__btn {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 580px) {

@@ -26,8 +26,21 @@
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+        $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+      });
+    </script>
+
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Homework 7</title>
+    <title>Homework 8</title>
   </head>
   <body>
     <div class="wrapper">
@@ -168,6 +181,76 @@
               <i class="fas fa-wifi"></i>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section class="tabs">
+        <div class="container">
+          <div class="tabs-wrapper" id="tabs">
+            <ul class="tabs-menu">
+              <li class="tabs-menu__item">
+                <a href="#tabs-1">TAB 1</a>
+              </li>
+              <li class="tabs-menu__item"><a href="#tabs-2">TAB 2</a></li>
+              <li class="tabs-menu__item"><a href="#tabs-3">TAB 3</a></li>
+            </ul>
+            <div class="tabs-content">
+              <div class="tabs-content__item" id="tabs-1">
+                <h3 class="tabs-content__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <span class="tabs-content__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                  <p class="tabs-content__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </span>
+                <a class="tabs-content__btn" href="#"> Download </a>
+              </div>
+              <div class="tabs-content__item" id="tabs-2">
+                <h3 class="tabs-content__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <span class="tabs-content__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                  <p class="tabs-content__text text-red">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </span>
+                <a class="tabs-content__btn" href="#"> Download </a>
+              </div>
+              <div class="tabs-content__item" id="tabs-3">
+                <h3 class="tabs-content__title">
+                  Tabs with soft transitioning effect.
+                </h3>
+                <span class="tabs-content__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar tempor. Cum sociis natoque penatibus et magnis dis
+                  parturient montes.
+                  <p class="tabs-content__text text-purple">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.
+                  </p>
+                </span>
+                <a class="tabs-content__btn" href="#"> Download </a>
+              </div>
+            </div>
+            <div class="tabs-img">
+              <img src="/images/Секция табов.png" alt="город" />
+            </div>
+          </div>
         </div>
       </section>
 
